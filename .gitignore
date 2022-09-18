@@ -1,0 +1,3 @@
+/metabolicdb-backend/
+./*.gz
+.gitignore
