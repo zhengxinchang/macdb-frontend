@@ -70,34 +70,6 @@ export default {
       deep: true
     },
 
-    // "$store.state.enrichtab":{
-    //
-    //   handler: function () {
-    //     console.log("enrichtab change detected..." + this.$store.state.enrichtab)
-    //
-    //     if (this.options !=null) {
-    //
-    //       // let chartDom = document.getElementById(this.chartid);
-    //       // this.myChart = this.$echarts.init(
-    //       //   chartDom,
-    //       // );
-    //
-    //       // console.log("option chage detected in common chart ...")
-    //       // this.myChart && this.myChart.clear()
-    //       // this.myChart.resize()
-    //
-    //       this.myChart.setOption(this.options);
-    //       this.myChart.resize();
-    //       window.addEventListener("resize", () => {
-    //         // 第六步，执行echarts自带的resize方法，即可做到让echarts图表自适应
-    //         this.myChart.resize();
-    //       });
-    //
-    //     }
-    //   },
-    //   // immediate: true,
-    //   deep: true
-    // },
   },
 
   beforeDestroy() {

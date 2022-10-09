@@ -168,12 +168,12 @@
 
               </vxe-column>
 
-              <vxe-column field="NoStudy" title="#Studies"   align="left" width="80" sortable>
+              <vxe-column field="NoStudy" title="#Study"   align="left" width="80" sortable>
                 <template #default="{ row}">
                   <div class="text-center">{{ row.NoStudy }}</div>
                 </template>
               </vxe-column>
-              <vxe-column field="NoPeople" title="#Subjects"   align="left" width="100" sortable>
+              <vxe-column field="NoPeople" title="#Subject"   align="left" width="100" sortable>
                 <template #header="{column}">
                   <span>{{ column.title }}</span>
                   <span>

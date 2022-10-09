@@ -211,7 +211,7 @@
 
                     </template>
                   </vxe-column>
-                  <vxe-column  min-width="80" field="NAssociation" title="#Associations">
+                  <vxe-column  min-width="80" field="NAssociation" title="#Association">
                     <template #header="{column}">
                       <div class="text-center">{{column.title}}</div>
                     </template>
@@ -219,7 +219,7 @@
                       <div class="text-center "> {{ row.NAssociation}}</div>
                     </template>
                   </vxe-column>
-                  <vxe-column  min-width="80" field="NStudy"  title="#Studies">
+                  <vxe-column  min-width="80" field="NStudy"  title="#Study">
                     <template #header="{column}">
                       <div class="text-center">{{column.title}}</div>
                     </template>
@@ -227,7 +227,7 @@
                       <div class="text-center "> {{ row.NStudy}}</div>
                     </template>
                   </vxe-column>
-                  <vxe-column  min-width="80" field="NPeople" title="#Subjects">
+                  <vxe-column  min-width="80" field="NPeople" title="#Subject">
                     <template #header="{column}">
                       <div class="text-center">{{column.title}}</div>
                     </template>

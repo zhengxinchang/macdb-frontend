@@ -267,18 +267,23 @@
 
                   <vxe-column  field="cid" title="PubChem ID" width="120">
                     <template #default="{ row }">
-                      <span> {{ row.cid }}</span>
+                      <span  >
+                        <a
+                            :href="'https://pubchem.ncbi.nlm.nih.gov/compound/'+row.cid"
+                            class="text-decoration-none text-body-2 font-weight-bold"
+                            target="_blank">{{ row.cid }}</a>
+                        </span>
                       <v-icon color="blue" small @click="goOuterLink(row.cid)">mdi-share</v-icon>
                     </template>
 
                   </vxe-column>
 
-                  <vxe-column  field="NoStudy" title="#Studies" width="100">
+                  <vxe-column  field="NoStudy" title="#Study" width="100">
                     <template #default="{ row}">
                       <div class="text-center">{{ row.NoStudy }}</div>
                     </template>
                   </vxe-column>
-                  <vxe-column  field="NoPeople" title="#Subjects" width="120">
+                  <vxe-column  field="NoPeople" title="#Subject" width="120">
                     <template #header="{column}">
                       <span>{{ column.title }}</span>
                       <span>

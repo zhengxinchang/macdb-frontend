@@ -293,8 +293,8 @@
                     <b>Date:</b> {{row.Date_of_Publication}}
                   </template>
                 </vxe-column>
-                <vxe-column min-width="100" field="Nmetabolite" align="center" title="#Metabolites"></vxe-column>
-                <vxe-column min-width="80"  field="Nstudy"  align="center" title="#Studies"></vxe-column>
+                <vxe-column min-width="100" field="Nmetabolite" align="center" title="#Metabolite"></vxe-column>
+                <vxe-column min-width="80"  field="Nstudy"  align="center" title="#Study"></vxe-column>
 
               </vxe-table>
               <vxe-pager

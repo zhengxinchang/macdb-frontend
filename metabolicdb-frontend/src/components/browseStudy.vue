@@ -283,7 +283,7 @@
                       </template>
 
                     </vxe-column>
-                    <vxe-column field="Nmetabolite"  width="110" title="#Metabolites" :visible="false" ></vxe-column>
+                    <vxe-column field="Nmetabolite"  width="110" title="#Metabolite" :visible="false" ></vxe-column>
                     <vxe-column field="Type" title="Category" min-width="100" :visible="false" >
                       <template #default="{row}" >
                         <v-chip  dark label small  :color="row.Type == 'case vs.control group' ? 'pink' : 'teal'" >

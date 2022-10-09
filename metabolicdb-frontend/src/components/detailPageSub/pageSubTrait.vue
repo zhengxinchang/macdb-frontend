@@ -219,7 +219,7 @@
                 </template>
               </vxe-column>
 
-              <vxe-column field="NAssociation" sortable title="#Associations" width="180">
+              <vxe-column field="NAssociation" sortable title="#Association" width="180">
                 <template #header="{column}">
                   <span class="text-center">{{ column.title }}</span>
                 </template>
@@ -240,7 +240,7 @@
 
                 </template>
               </vxe-column>
-              <vxe-column field="NPeople" sortable title="#Subjects" width="180">
+              <vxe-column field="NPeople" sortable title="#Subject" width="180">
                 <template #header="{column}">
                   <span class="text-center">{{ column.title }}</span>
                 </template>
@@ -248,9 +248,9 @@
                   <div class="text-center "> {{ row.NPeople }}</div>
                 </template>
               </vxe-column>
-              <vxe-column field="NPublication" sortable title="#Publications" width="180">
+              <vxe-column field="NPublication" sortable title="#Publication" width="180">
               </vxe-column>
-              <vxe-column field="NStudy" sortable title="#Studies" width="180">
+              <vxe-column field="NStudy" sortable title="#Study" width="180">
               </vxe-column>
               <vxe-column align="center" field="NPublicationDict" sortable title="Publications" width="180">
                 <template #default="{ row }">

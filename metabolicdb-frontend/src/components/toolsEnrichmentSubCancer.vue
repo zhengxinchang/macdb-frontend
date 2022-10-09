@@ -46,7 +46,7 @@
           </template>
         </vxe-column>
         <vxe-column sortable field="Cancer_DOID" title="Cancer DOID"></vxe-column>
-        <vxe-column sortable field="Cohort_id_count" title="#Studies"></vxe-column>
+        <vxe-column sortable field="Cohort_id_count" title="#Study"></vxe-column>
         <!--        <vxe-column sortable field="odd"  title="Odd Ratio" ></vxe-column>-->
         <vxe-column sortable field="p" title="Pvals"></vxe-column>
         <vxe-column sortable field="adjp" title="Adjust Pvals"></vxe-column>
