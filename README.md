@@ -5,7 +5,7 @@ Cancer is one of the leading causes of human death. As the metabolomics technolo
 
 MACdb is seprated to front-end and backend parts. This repository hosts the front-end code.
 
-The Front-end interface is developed by using several web techniques as following:
+The Front-end interface is developed by using several web packages as following:
 
 - vue.js
 - vue-router
