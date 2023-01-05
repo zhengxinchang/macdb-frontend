@@ -337,15 +337,25 @@
 
           <v-col cols="12" lg="3" md="6" sm="12" xl="3">
             <v-card :elevation="total_elevation" height="300">
-              <v-card-title :style="{'color':$store.state.mainColor}">Global Visitors</v-card-title>
+              <v-card-title :style="{'color':$store.state.mainColor}">How to cite</v-card-title>
               <v-card-text>
                 <div class="mx-1 my-4 ">
                   <v-row>
                     <v-col cols="12">
                       <v-sheet class="pa-2 mx-auto overflow-auto ">
-                        <a class="noclick" href="https://www.revolvermaps.com/livestats/5j7qq7wks3k/"><img
-                            alt="Map" height="180" src="//rf.revolvermaps.com/h/m/a/0/ff8a00/211/0/5j7qq7wks3k.png"
-                            style="border:0;" width="380"></a>
+<!--                        <a class="noclick" href="https://www.revolvermaps.com/livestats/5j7qq7wks3k/"><img-->
+<!--                            alt="Map" height="180" src="//rf.revolvermaps.com/h/m/a/0/ff8a00/211/0/5j7qq7wks3k.png"-->
+<!--                            style="border:0;" width="380"></a>-->
+                        <div class="text-left mb-2 mt-4">
+                          <v-icon>mdi-format-quote-open-outline</v-icon>
+                          <span> <b>How to Cite:</b> Database Resources of the National Genomics Data Center, China National Center for Bioinformation in 2022. Nucleic Acids Res 2022, 50(D1):D27-D38. [PMID=<a
+                              href="https://pubmed.ncbi.nlm.nih.gov/34718731/"
+                              :style="{color:hilightColor,textDecoration:'none'}"
+                              target="_blank">34718731</a>][DOI=<a
+                              href="https://doi.org/10.1093/nar/gkab951"
+                              :style="{color:hilightColor,textDecoration:'none'}" target="_blank">10.1093/nar/gkab951</a>]
+                          </span>
+                        </div>
                       </v-sheet>
                     </v-col>
 
@@ -384,15 +394,7 @@
     <v-row>
       <v-col cols="12">
         <v-sheet rounded class="py-2 px-3 mb-2" >
-          <div class="text-left mb-2 mt-4">
-            <v-icon>mdi-format-quote-open-outline</v-icon>
-            <span> <b>How to Cite:</b> Database Resources of the National Genomics Data Center, China National Center for Bioinformation in 2022. Nucleic Acids Res 2022, 50(D1):D27-D38. [PMID=<a
-                href="https://pubmed.ncbi.nlm.nih.gov/34718731/"
-                :style="{color:hilightColor,textDecoration:'none'}"
-                target="_blank">34718731</a>][DOI=<a
-                href="https://doi.org/10.1093/nar/gkab951"
-                :style="{color:hilightColor,textDecoration:'none'}" target="_blank">10.1093/nar/gkab951</a>]</span>
-          </div>
+
 
           <div class="text-left">
             <v-icon>mdi-information-outline</v-icon>
@@ -420,6 +422,10 @@ export default {
       total_elevation: 0,
       hilightColor: '#0d8dd2',
       news: [
+        {
+          date: "[2022/11/09]",
+          text: "Bugs fix and code clean."
+        },
         {
           date: "[2022/08/23]",
           text: "Bugs fix and code clean."

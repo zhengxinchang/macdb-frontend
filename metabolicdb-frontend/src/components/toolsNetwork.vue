@@ -251,7 +251,7 @@
             <v-row dense>
               <v-col cols="12" class=" text-left mt-4">
                 The width of the line indicates the number of studies or publications shared between two entities. <br/><br/>
-                Detailed manual of this tool can be found at "<span class="font-weight-bold" >3.3.2 Association Network</span>" in
+                Detailed manual of this tool can be found at "<span class="font-weight-bold" >3.3 Knowledge Graph</span>" in
                 <a href="https://ngdc.cncb.ac.cn/macdb/docs2/#/" style="text-decoration: none" target="_blank">MACdb help page</a> .
 
 
